@@ -1,0 +1,11 @@
+---
+- hosts: centos
+  vars_files:
+   - variables.yml
+  tasks:
+
+   - include: lamp.yml
+   - include: wordpress.yml
+   - include: virtual_host.yml
+   - include: mysql_config.yml
+   - include: wordpress_contents.yml 
