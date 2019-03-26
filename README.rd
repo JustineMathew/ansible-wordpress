@@ -1,0 +1,1 @@
+This repository contains a playbook for provisioning modern hosting environments geared towards WordPress. It's based on Hosting WordPress Yourself and WordPress Nginx. The following is handled out of the box:
